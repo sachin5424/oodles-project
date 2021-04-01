@@ -1,0 +1,47 @@
+/* h1{
+    margin-top: -100px;
+} */
+#bgimg{
+    background-image: url(~/src/assets/backgrounds/4683.png);
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+    
+}
+h1{
+    margin-top: 150px;
+    letter-spacing: 2px;  
+    color: white;
+    font-weight: 100;
+    margin-bottom: 50px;
+}
+
+button{
+    position: relative;
+   top: -250px;
+   left: 70px;
+   width: 60%;
+    z-index: 1;
+}
+p{
+    color: white;
+}
+.texttop{
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    #bgimg{
+        background-image: url(~/src/assets/backgrounds/4683.png);
+        background-repeat: no-repeat;
+        background-size: 100% 1950px ;
+        
+    }
+#card1{
+    color: black;
+}
+ .texttop{
+     color: bisque;
+ }
+    h1{
+        color: blue;
+    }
+  }

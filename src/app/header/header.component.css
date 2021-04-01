@@ -1,0 +1,25 @@
+nav{
+    background-color: white;
+    margin-top: 0%;
+    transform: scale(0.9);
+    border-radius: 30px;
+}
+.navbar-brand img{
+    width: 100px;
+    height: 80px;
+}
+.nav-link{
+    color: gray;
+    text-transform: uppercase;
+    
+}
+li{
+    border-bottom: 2px solid transparent;
+    margin: 6px;
+    font-size: 13px;
+}
+li:hover{
+    border-bottom: 2px solid blue;
+   position: relative;
+   transition: 2s;
+}

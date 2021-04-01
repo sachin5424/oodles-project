@@ -1,0 +1,27 @@
+#Contact{
+    background-image: url(~/src/assets/backgrounds/Rectangle13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+span{
+    position: absolute;
+}
+input,textarea{
+    border: 1px solid black;
+}
+#form{
+    transform: scale(0.8);
+    box-shadow: 0 0 20px black;
+}
+.Contact_text{
+    margin-top: 200px;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+   
+}
+.Contact_text h5{
+   letter-spacing: 2px;
+   line-height: 20px;
+}

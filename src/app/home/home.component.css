@@ -1,0 +1,57 @@
+#top_container{
+    background-image: url(~/src/assets/backgrounds/Rectangle11.png);
+    /* background-image: url(~/src/assets/icons/if_Dzone_669685.png); */
+    background-repeat: repeat;
+    /* position: relative; */
+ 
+      /* background-image: url(~/src/assets/backgrounds/Rectangle11.png); */
+    /* background-color: rgb(146, 211, 236); */
+
+    
+    /* border-bottom-right-radius: 45% */
+
+ 
+}
+.demo{
+   background-image: url(~/src/assets/icons/if_Dzone_669685.png);  
+}
+.text1{
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: white;
+}
+.text2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: white;
+    margin-top: -40px;
+}
+#top_container1{
+    
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+}
+.bitcoin{
+    margin-left: 20px;
+    margin-top: -20%;
+}
+.bitcoin img{
+    margin-left: -25px;
+    
+}
+
+/* #bottomi_img{
+    width: 100%;
+  
+    transform: rotate(-2deg);
+} */
+.col-md-6 img{
+   width: 100%;
+}
+h1{
+    /* font-size: 100px; */
+    text-transform: uppercase;
+    line-height: -10px;
+}

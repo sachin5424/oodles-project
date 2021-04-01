@@ -1,0 +1,21 @@
+<section>
+    <div class="container mt-5">
+        <div class="row">
+            <h1 class="text-center">Our services</h1>
+            <div class="col-md-4 p-3 " *ngFor="let item of card_list">
+                <mat-card class="text-center">
+                    <img matCardImageSmall width="10px" src="{{item.img}}" alt="">
+                        <mat-card-content>
+                            <h5 class="py-2">  {{item.title}}</h5>
+                        </mat-card-content> 
+                </mat-card>
+              </div>
+             <div class="col-md-12 text-center">
+               <div class="p-3">
+                <button class="services_btn" mat-raised-button>View all services</button>
+               </div>
+             </div>
+        </div>
+      
+    </div>
+</section>
