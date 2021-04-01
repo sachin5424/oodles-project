@@ -55,3 +55,26 @@ h1{
     text-transform: uppercase;
     line-height: -10px;
 }
+@media only screen and (max-width: 600px) {
+    .text1{
+        font-weight: 100;
+        
+        letter-spacing: 2px;
+        color: white;
+    }
+    .text2{
+        font-weight: bold;
+        letter-spacing: 2px;
+        color: white;
+        margin-top: 10px;
+    }
+    .bitcoin{
+        margin-left: 20px;
+        margin-top: -20%;
+    }
+    .bitcoin img{
+        width: 100px;
+        margin-left: -25px;
+        
+    }
+}
