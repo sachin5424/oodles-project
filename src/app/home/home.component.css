@@ -1,80 +1,170 @@
-#top_container{
-    background-image: url(~/src/assets/backgrounds/Rectangle11.png);
-    /* background-image: url(~/src/assets/icons/if_Dzone_669685.png); */
-    background-repeat: repeat;
-    /* position: relative; */
- 
-      /* background-image: url(~/src/assets/backgrounds/Rectangle11.png); */
-    /* background-color: rgb(146, 211, 236); */
 
-    
-    /* border-bottom-right-radius: 45% */
+        #demo img{
+            width: 100%;
+            height: 80%;
+            position: absolute;
+          
+           z-index: 1;
+        }
+        #demo1 img{
+            width: 100%;
+            height: 60%;
+            position: absolute;
+            background-image: url(~/src/assets/icons/if_Dzone_669685.png);
+            opacity: 0.1;
+             z-index: 1;
+        }
+        .lorem{
+            font-weight: 100;
+           color: white;
+            margin-top: 90px;
+            margin-left: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .lorem2{
+            font-weight: 900;
+           color: white;
+            margin-top: -40px;
+            margin-left: 10px;
+        }
+        .col-md-6{
+            z-index: 1;
 
- 
-}
-.demo{
-   background-image: url(~/src/assets/icons/if_Dzone_669685.png);  
-}
-.text1{
-    font-weight: 100;
-    letter-spacing: 2px;
-    color: white;
-}
-.text2{
-    font-weight: bold;
-    letter-spacing: 2px;
-    color: white;
-    margin-top: -40px;
-}
-#top_container1{
-    
+        }
+        #btncoin{
+            margin-top: 70px;
+        }
+        .col-md-2{
+            margin: -45px;
+        }
+     
+        .col-md-2 img{
+            z-index: 111;
+            position: absolute;
+            width: 90px;
+           
+        }
 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-size: 100% 550px;
-}
-.bitcoin{
-    margin-left: 20px;
-    margin-top: -20%;
-}
-.bitcoin img{
-    margin-left: -25px;
-    
-}
+        .img1{
+            width: 20px;
+        }
+        @media only screen and (max-width: 1250px),screen and (max-width: 1150px),screen and (max-width: 1050px) {
+          
+        #btncoin{
+            margin-top: 120px;
+        }
+        .col-md-2{
+            margin: -45px;
+        }
+     
+        .col-md-2 img{
+            z-index: 111;
+            position: absolute;
+           
+        }
 
-/* #bottomi_img{
-    width: 100%;
+        .img1{
+            width: 20px;
+        }
+   }
+   @media only screen and (max-width: 1050px) {
+          
+          #btncoin{
+              margin-top: 170px;
+          }
+          .col-md-2{
+              margin: -20px;
+              margin-left: 10px;
+          }
+       
+          .col-md-2 img{
+              z-index: 111;
+              position: absolute;
+             
+          }
   
-    transform: rotate(-2deg);
-} */
-.col-md-6 img{
-   width: 100%;
-}
-h1{
-    /* font-size: 100px; */
-    text-transform: uppercase;
-    line-height: -10px;
-}
-@media only screen and (max-width: 600px) {
-    .text1{
-        font-weight: 100;
-        
-        letter-spacing: 2px;
-        color: white;
-    }
-    .text2{
-        font-weight: bold;
-        letter-spacing: 2px;
-        color: white;
-        margin-top: 10px;
-    }
-    .bitcoin{
-        margin-left: 20px;
-        margin-top: -20%;
-    }
-    .bitcoin img{
-        width: 100px;
-        margin-left: -25px;
-        
-    }
-}
+          .img1{
+              width: 20px;
+          }
+     }
+     @media only screen and (max-width: 867px) {
+        .col-md-6{
+              width: 50%;
+          }
+          .col-md-6 img{
+              width: 100%;
+              height: 70%;
+              opacity: 0.7;
+          }
+          #btncoin{
+              margin-top: 120px;
+          }
+          .col-md-2{
+              margin: 10px;
+              margin-left: 10px;
+          }
+    
+          .col-md-2 img{
+              z-index: 111;
+              position: absolute;
+             
+          }
+          .lorem{
+            font-weight: 100;
+           color: white;
+            margin-top: 90px;
+            margin-left: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .lorem2{
+            font-weight: 900;
+           color: white;
+            margin-top: -10px;
+            margin-left: 10px;
+        }
+          .img1{
+              width: 20px;
+          }
+     }
+     @media only screen and (max-width: 667px) {
+          .col-md-6{
+              width: 50%;
+          }
+          .col-md-6 img{
+              width: 100%;
+              height: 70%;
+              opacity: 0.7;
+          }
+          #btncoin{
+              margin-top: 180px;
+          }
+          .col-md-2{
+              margin: 2px;
+              margin-left: 10px;
+          }
+       
+          .col-md-2 img{
+              z-index: 111;
+              position: absolute;
+             
+          }
+          .lorem{
+            font-weight: 100;
+           color: white;
+            margin-top: 90px;
+            margin-left: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .lorem2{
+            font-weight: 900;
+           color: white;
+            margin-top: -10px;
+            margin-left: 10px;
+        }
+          .img1{
+              width: 20px;
+          }
+     }
